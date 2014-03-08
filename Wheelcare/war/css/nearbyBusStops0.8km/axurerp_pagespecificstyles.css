@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:315px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:311px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:315px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:311px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:60px;
+    height:30px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Axure Handwriting';
+    font-size: 11px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u5_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u2_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:0px;
+    top:450px;
+    width:315px;
+    height:30px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:36px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:311px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:255px;
+    top:40px;
+    width:60px;
+    height:30px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Axure Handwriting';
+    font-size: 11px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:47px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:47px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:47px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:3px;
+    top:95px;
+    width:286px;
+    height:99px;
+}
+
+#u15_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:286px;
+    height:99px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:282px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:3px;
+    top:203px;
+    width:286px;
+    height:99px;
+}
+
+#u17_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:286px;
+    height:99px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:282px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('/images/nearbyBusStops0.8km/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:3px;
+    top:312px;
+    width:286px;
+    height:99px;
+}
+
+#u19_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:286px;
+    height:99px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:282px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
