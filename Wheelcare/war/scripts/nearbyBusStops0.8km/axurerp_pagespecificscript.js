@@ -10,7 +10,7 @@ $axure.eventManager.click('u13', function(e) {
 
 if (true) {
 
-    self.location.href="resources/reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
+    self.location.href="reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
 
 }
 });
@@ -20,7 +20,7 @@ $axure.eventManager.click('u4', function(e) {
 
 if (true) {
 
-    self.location.href="resources/reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
+    self.location.href="reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
 
 }
 });

@@ -50,7 +50,7 @@ $axure.eventManager.click('u11', function(e) {
 
 if (true) {
 
-    self.location.href="resources/reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
+    self.location.href="reload.html#" + encodeURI($axure.globalVariableProvider.getLinkUrl($axure.pageData.url));
 
 }
 });
