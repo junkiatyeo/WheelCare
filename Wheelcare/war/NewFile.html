@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet">
+    <link href="Feedback_files/axurerp_pagespecificstyles.css" type="text/css" rel="stylesheet">
+
+    <script src="data/sitemap.js"></script>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axurerp_beforepagescript.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+	<script src='Feedback_files/data.js'></script>
+	<script src="resources/scripts/axurerp_pagescript.js"></script>
+	<script src="Feedback_files/axurerp_pagespecificscript.js" charset="utf-8"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+    function changeToPositive() {
+
+        if (document.getElementById("negative").src == "Feedback_files/u12_clicked.png") 
+        {
+            document.getElementById("negative").src = "Feedback_files/u12_normal.png";
+            document.getElementById("positive").src = "Feedback_files/u10_clicked.png";
+        }
+        else 
+        {
+        	document.getElementById("positive").src = "Feedback_files/u10_clicked.png";
+        }
+    }
+    
+    function changeToNegative() {
+
+        if (document.getElementById("positive").src == "Feedback_files/u10_clicked.png") 
+        {
+            document.getElementById("positive").src = "Feedback_files/u10_normal.png";
+            document.getElementById("negative").src = "Feedback_files/u12_clicked.png";
+        }
+        else 
+        {
+        	document.getElementById("negative").src = "Feedback_files/u12_clicked.png";
+        }
+    }
+	</script>
+</head>
+<body>
+
+	<img src="Feedback_files/u10_normal.png" id="positive" onclick="changeToPositive()"/>
+	<img src="Feedback_files/u12_normal.png" id="negative" onclick="changeToNegative()"/>
+
+</body>
+</html>
