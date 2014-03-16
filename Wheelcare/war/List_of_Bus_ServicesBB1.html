@@ -20,18 +20,8 @@
 	<script src="/List_of_Bus_Services_files/axurerp_pagespecificscript.js" charset="utf-8"></script>
 
 	<script type="text/javascript">
-	function confirmGetMessage() {
-		var theAnswer = confirm("A notification will be sent!");
-
-	  if (theAnswer){
-	  	var welAnswer = confirm("Welcome aboard! Would you like to use the journey planner?");
-	  	if (welAnswer){
-	  		window.open("Select_Destination.html",'_parent');
-	  	}
-	  	else{
-	  		window.open("Home.html",'_parent');
-	  	}
-	  }
+	function errorMessage() {
+		alert("Error notifying, please refresh page");
 	}
 	</script>
 </head>
@@ -164,9 +154,9 @@
 <div id="u42_rtf"></div>
 </div>
 </div>
-<INPUT id="u43" type="submit" class="u43" value="Notify" onClick="confirmGetMessage()">
+<INPUT id="u43" type="submit" class="u43" value="Notify" onClick="errorMessage()">
 
-<INPUT id="u44" type="submit" class="u44" value="Notify"  disabled >
+<INPUT id="u44" type="submit" class="u44" value="Notify" onClick="errorMessage()">
 
 <div id="u45" class="u45_container"   >
 <div id="u45_img" class="u45_normal detectCanvas"></div>
@@ -174,7 +164,7 @@
 <div id="u46_rtf"></div>
 </div>
 </div>
-<INPUT id="u47" type="submit" class="u47" value="Notify"  disabled >
+<INPUT id="u47" type="submit" class="u47" value="Notify" onClick="errorMessage()">
 
 <div id="u48" class="u48_container"   >
 <div id="u48_img" class="u48_normal detectCanvas"></div>
@@ -182,7 +172,7 @@
 <div id="u49_rtf"></div>
 </div>
 </div>
-<INPUT id="u50" type="submit" class="u50" value="Notify"  disabled >
+<INPUT id="u50" type="submit" class="u50" value="Notify" onClick="errorMessage()">
 
 <div id="u51" class="u51_container"   >
 <div id="u51_img" class="u51_normal detectCanvas"></div>

@@ -20,20 +20,17 @@
 	<script src="/List_of_Bus_Services_files/axurerp_pagespecificscript.js" charset="utf-8"></script>
 
 	<script type="text/javascript">
-	function confirmGetMessage() {
-		var theAnswer = confirm("A notification will be sent!");
-
-	  if (theAnswer){
-	  	var welAnswer = confirm("Welcome aboard! Would you like to use the journey planner?");
-	  	if (welAnswer){
-	  		window.open("Select_Destination.html",'_parent');
-	  	}
-	  	else{
-	  		window.open("Home.html",'_parent');
-	  	}
-	  }
+	function notifyDisabled() {
+	  alert("Notification is disabled while offline");
 	}
 	</script>
+	
+	<script type="text/javascript">
+	function notifyFull() {
+	  alert("Wheelchair lot is occupied, select or wait for other bus.");
+	}
+	</script>
+	
 </head>
 <body>
 <div id="main_container">
@@ -42,7 +39,7 @@
 <div id="u0_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:36px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;">64</span></p></div>
 </div>
 <div id="u1" class="u1"  >
-<div id="u1_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Sims</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;"> Place Terminal</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : 6 mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">4</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : 13 mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">7 stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p></div>
+<div id="u1_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Sims</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;"> Place Terminal</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : Not Available</span><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : Not Available</span></p></div>
 </div>
 <div id="u2" class="u2_container" onClick="changeimage()">
 <div id="u2_img" class="u2_normal detectCanvas"></div>
@@ -66,7 +63,7 @@
 <div id="u8_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:36px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;">139</span></p></div>
 </div>
 <div id="u9" class="u9"  >
-<div id="u9_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Bukit Merah Interchange</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">8</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">5 stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : 1</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">7</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">11 stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p></div>
+<div id="u9_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Bukit Merah Interchange</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Not Available</span><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : Not Available</span></p></div>
 </div>
 <div id="u10" class="u10"  >
 <div id="u10_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">E</span></p></div>
@@ -84,7 +81,7 @@
 <div id="u14_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:36px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;">972</span></p></div>
 </div>
 <div id="u15" class="u15"  >
-<div id="u15_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Bukit </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Panjang Interchange</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">6</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">3 stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : 1</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">9</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">8</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p></div>
+<div id="u15_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Bukit </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Panjang Interchange</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Not Available</span><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : Not Available</span></p></div>
 </div>
 <div id="u16" class="u16"  >
 <div id="u16_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">E</span></p></div>
@@ -156,17 +153,16 @@
 <div id="u39_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:36px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;">6</span><span style="font-family:Axure Handwriting;font-size:36px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;">5</span></p></div>
 </div>
 <div id="u40" class="u40"  >
-<div id="u40_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Harbourfront Terminal</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">7</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">4 stops</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">)</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : 1</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">4</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"> mins (</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">8 stops)</span></p></div>
-</div>
+<div id="u40_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">To</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">&nbsp;</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;">Harbourfront Terminal</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Next Bus : </span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Not Available</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"></span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;">Sub Bus&nbsp; : Not Available</span><span style="font-family:Axure Handwriting;font-size:14px;font-weight:normal;font-style:normal;text-decoration:none;color:#990099;"></span></p></div></div>
 <a href="http://www.transitlink.com.sg/eservice/eguide/service_route.php?service=65" target="_blank"><div id="u41" class="u41_container"   >
 <div id="u41_img" class="u41_normal detectCanvas"></div></a>
 <div id="u42" class="u42" style="visibility:hidden;"  >
 <div id="u42_rtf"></div>
 </div>
 </div>
-<INPUT id="u43" type="submit" class="u43" value="Notify" onClick="confirmGetMessage()">
+<INPUT id="u43" type="submit" class="u43" value="Notify"  onClick="notifyDisabled()" >
 
-<INPUT id="u44" type="submit" class="u44" value="Notify"  disabled >
+<INPUT id="u44" type="submit" class="u44" value="Notify"  onClick="notifyDisabled()" >
 
 <div id="u45" class="u45_container"   >
 <div id="u45_img" class="u45_normal detectCanvas"></div>
@@ -174,7 +170,7 @@
 <div id="u46_rtf"></div>
 </div>
 </div>
-<INPUT id="u47" type="submit" class="u47" value="Notify"  disabled >
+<INPUT id="u47" type="submit" class="u47" value="Notify"  onClick="notifyDisabled()" >
 
 <div id="u48" class="u48_container"   >
 <div id="u48_img" class="u48_normal detectCanvas"></div>
@@ -182,7 +178,7 @@
 <div id="u49_rtf"></div>
 </div>
 </div>
-<INPUT id="u50" type="submit" class="u50" value="Notify"  disabled >
+<INPUT id="u50" type="submit" class="u50" value="Notify"  onClick="notifyDisabled()" >
 
 <div id="u51" class="u51_container"   >
 <div id="u51_img" class="u51_normal detectCanvas"></div>
