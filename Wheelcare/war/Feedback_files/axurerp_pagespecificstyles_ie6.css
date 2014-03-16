@@ -8,6 +8,11 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Feedback_files/u2_normal.png");
 }
 
+* html .u8_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Feedback_files/u8_normal.png");
+}
+
 * html .u10_normal {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Feedback_files/u10_normal.png");
@@ -15,6 +20,6 @@
 
 * html .u12_normal {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Feedback_files/u12_normal.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Feedback_files/u8_normal.png");
 }
 

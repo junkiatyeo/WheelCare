@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0px;
 }
 
@@ -127,15 +127,15 @@ div {
 }
 
 .u7_normal {
-    background-image: url('../Home_files/u3_normal.png');
+    background-image: url('../Home_files/u5_normal.png');
 }
 
 .u7_container {
     position:absolute;
     left:0px;
-    top:450px;
+    top:420px;
     width:315px;
-    height:30px;
+    height:60px;
 }
 
 #u7_img {
@@ -143,7 +143,7 @@ div {
     left:-3px;
     top:-3px;
     width:321px;
-    height:36px;
+    height:72px;
 }
 
 .u8 {
@@ -191,7 +191,7 @@ div {
 .u14 {
     position:absolute;
     left:16px;
-    top:0px;
+    top:300px;
     width:47px;
     height:15px;
     ;
@@ -202,3 +202,16 @@ div {
     word-wrap:break-word;
 }
 
+.rangeC {width: 250px; height: 20px; margin: 0; padding: 0;}
+
+.vector {
+    position:absolute;
+    top:435px;
+    left: 30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}

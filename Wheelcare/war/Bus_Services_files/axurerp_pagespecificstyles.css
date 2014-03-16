@@ -296,3 +296,37 @@ div {
     word-wrap:break-word;
 }
 
+.u17_normal {
+    background-image: url('../Bus_Services_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:275px;
+    top:70px;
+    width:40px;
+    height:40px;
+}
+
+#u17_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:40px;
+    height:40px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

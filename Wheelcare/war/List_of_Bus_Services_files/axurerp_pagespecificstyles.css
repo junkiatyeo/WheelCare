@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0px;
 }
 
@@ -85,7 +85,7 @@ div {
 }
 
 .u4_normal {
-    background-image: url('../List_of_Bus_Services_files/u4_normal.png');
+    background-image: url('../List_of_Bus_Services_files/u12_normal.png');
 }
 
 .u4_container {
@@ -203,7 +203,7 @@ div {
 }
 
 .u12_normal {
-    background-image: url('../List_of_Bus_Services_files/u12_normal.png');
+    background-image: url('../List_of_Bus_Services_files/u4_normal.png');
 }
 
 .u12_container {
