@@ -689,7 +689,7 @@ div {
 
 .u41_container {
     position:absolute;
-    left:56px;
+    left:78px;
     top:167px;
     width:10px;
     height:10px;
@@ -754,7 +754,7 @@ div {
 }
 
 .u45_normal {
-    background-image: url('../List_of_Bus_Services_files/u2_normal.png');
+    background-image: url('../List_of_Bus_Services_files/u35_normal.png');
 }
 
 .u45_container {
@@ -806,7 +806,7 @@ div {
 }
 
 .u48_normal {
-    background-image: url('../List_of_Bus_Services_files/u2_normal.png');
+    background-image: url('../List_of_Bus_Services_files/u35_normal.png');
 }
 
 .u48_container {
@@ -939,3 +939,42 @@ div {
     word-wrap:break-word;
 }
 
+.u37a_normal {
+    background-image: url('../List_of_Bus_Services_files/u37_normal.png');
+}
+
+.u37a_container {
+    position:absolute;
+    left:0px;
+    top:449px;
+    width:294px;
+    height:126px;
+}
+
+#u37a_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:300px;
+    height:132px;
+}
+
+.u37b_normal {
+    background-image: url('../List_of_Bus_Services_files/u37_normal.png');
+}
+
+.u37b_container {
+    position:absolute;
+    left:0px;
+    top:300px;
+    width:294px;
+    height:126px;
+}
+
+#u37b_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:300px;
+    height:132px;
+}

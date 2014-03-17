@@ -20,6 +20,12 @@
 	<script src="/List_of_Stops_files/axurerp_pagespecificscript.js" charset="utf-8"></script>
 
 	<script type="text/javascript">
+	function cantClick() {
+		confirm("Message from admin: choose other stop.");
+	}
+	</script>
+
+	<script type="text/javascript">
 	function confirmGetMessage() {
 		window.open("In_Transit.html",'_parent');
 	}
@@ -82,13 +88,13 @@
 <div id="u18" class="u18"  >
 <div id="u18_rtf"><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:16px;font-weight:bold;font-style:normal;text-decoration:none;color:#333333;">061</span><span style="font-family:Axure Handwriting;font-size:16px;font-weight:bold;font-style:normal;text-decoration:none;color:#333333;">4</span><span style="font-family:Axure Handwriting;font-size:16px;font-weight:bold;font-style:normal;text-decoration:none;color:#333333;">1 - </span><span style="font-family:Axure Handwriting;font-size:16px;font-weight:bold;font-style:normal;text-decoration:none;color:#333333;">Holiday Inn A ...</span></p><p style="text-align:left;"><span style="font-family:Axure Handwriting;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#333333;">Havelock Road</span></p></div>
 </div>
-<INPUT id="u19" type="submit" class="u19" value="Select"  Disabled >
+<INPUT id="u19" type="submit" class="u19" value="Select"  onClick="cantClick()" >
 
-<INPUT id="u20" type="submit" class="u20" value="Select"  Disabled >
+<INPUT id="u20" type="submit" class="u20" value="Select"  onClick="cantClick()" >
 
-<INPUT id="u21" type="submit" class="u21" value="Select"  Disabled >
+<INPUT id="u21" type="submit" class="u21" value="Select"  onClick="cantClick()" >
 
-<INPUT id="u22" type="submit" class="u22" value="Select"  Disabled >
+<INPUT id="u22" type="submit" class="u22" value="Select"  onClick="cantClick()" >
 
 
 <INPUT id="u23" type="submit" class="u23" value="Select" onClick="confirmGetMessage()" >
